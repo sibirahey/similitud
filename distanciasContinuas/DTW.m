@@ -20,7 +20,7 @@ for i=1:length(C)
 	for j=1:length(Q)
 		%M(i,j)=sqrt(((Q(i)-C(j))^2)); //Aqui se utiliza distancia
 		%Euclideana
-        M(i,j)=(Q(i)-C(j))^2;
+        M(i,j)=Euclidean(Q(i),C(j));
 	end
 end
 
