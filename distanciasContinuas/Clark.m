@@ -1,4 +1,4 @@
-function d=Divergence(vec1,vec2)
+function d=Clark(vec1,vec2)
 suma=0;
 if(length(vec1) == length(vec2))
 	for i = 1 : length(vec1)

@@ -18,7 +18,7 @@ function d = treeToTreeD( A,B )
         D(i,1) = nodes(B,b) * p;
     end
 
-    disp(D);
+    %disp(D);
     for i = 2 : n + 1
         for j = 2 : m + 1
             a = hmenos1(A,j-1);
@@ -77,7 +77,7 @@ function d = treeToTreeD( A,B )
             dos = E(s+2,t+1) + q;
             tres = E(s+1,t+1) + r;
             D(i,j) =  min([uno dos tres]);
-            disp(D);
+            %disp(D);
         end
     end
     %disp(D);
